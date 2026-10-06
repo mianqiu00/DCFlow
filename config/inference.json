@@ -1,0 +1,10 @@
+{
+  "num_steps": 200,
+  "seed": 2026,
+  "num_designs": 32,
+  "guidance": {"steps": [125, 150, 175, 199], "scale": 50.0, "positions": 3, "alternatives": 3},
+  "search": {"K": 16, "K0": 8, "M": 8, "N0": 32, "sigma": 1.75, "temperature": 2.5, "epsilon": 1e-8, "quality_temperature": 0.1},
+  "refinement": {"iterations": [100, 50, 10], "warmup": 5, "patience": 5, "min_delta": 0.0, "iptm_weight": 1.0, "hotspot_pae_weight": 1.0},
+  "oracle": {"model": "model_1_multimer_v3", "num_recycles": 1, "offset_type": 2, "msa_rows": 128},
+  "evaluation": {"models": [1, 2, 3, 4, 5], "num_recycles": 3}
+}

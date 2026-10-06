@@ -1,0 +1,13 @@
+name: dcflow-afcyc
+channels: [conda-forge]
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - jax[cuda12]==0.9.1
+      - dm-haiku==0.0.16
+      - optax==0.2.8
+      - biopython==1.85
+      - scipy
+      - numpy
+      - git+https://github.com/sokrypton/ColabDesign.git@e31a56fe1d9b4de25c8697f3a28b75892941cc72

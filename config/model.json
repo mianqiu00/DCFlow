@@ -1,0 +1,49 @@
+{
+  "encoder": {
+    "node_embed_size": 128,
+    "edge_embed_size": 64,
+    "ipa": {
+      "c_s": 128,
+      "c_z": 64,
+      "c_hidden": 128,
+      "no_heads": 8,
+      "no_qk_points": 8,
+      "no_v_points": 12,
+      "seq_tfmr_num_heads": 4,
+      "seq_tfmr_num_layers": 2,
+      "num_blocks": 6,
+      "stop_grad": false
+    }
+  },
+  "interpolant": {
+    "min_t": 0.01,
+    "sequence_start_t": 0.5,
+    "sidechain_start_t": 0.8,
+    "sample_sequence": true,
+    "sample_structure": true,
+    "rots": {
+      "sample_schedule": "exp",
+      "exp_rate": 10
+    },
+    "trans": {
+      "sample_schedule": "linear",
+      "sigma": 1.0
+    },
+    "seqs": {
+      "num_classes": 20,
+      "simplex_value": 5.0
+    },
+    "sampling": {
+      "num_timesteps": 200
+    },
+    "self_condition": false
+  },
+  "cyclic": {
+    "enabled": true,
+    "max_relpos": 32
+  },
+  "mpnn_prior": {
+    "enabled": true,
+    "fusion_init": 0.1
+  }
+}

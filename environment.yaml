@@ -1,0 +1,14 @@
+name: dcflow
+channels: [conda-forge]
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+      - torch==2.8.0
+      - numpy==1.26.4
+      - scipy==1.13.1
+      - biopython==1.85
+      - einops==0.8.2
+      - easydict==1.13
+      - tqdm==4.67.1
+      - -e .

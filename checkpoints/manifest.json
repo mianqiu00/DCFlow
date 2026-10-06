@@ -1,0 +1,10 @@
+{
+  "file": "dcflow.pt",
+  "sha256": "b6ed76cd0a700ea8b17a326d57ef5ec40873976d3337f85218d2880e75c43f61",
+  "bytes": 27792656,
+  "dtype": "float32",
+  "storage": "lossless original tensors",
+  "tensor_count": 419,
+  "tensor_elements_including_buffers": 6916360,
+  "model_parameters": 6916324
+}

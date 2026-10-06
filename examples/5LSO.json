@@ -1,0 +1,10 @@
+{
+  "case_id": "5LSO",
+  "pocket": "5LSO/pocket.pdb",
+  "peptide_reference": "5LSO/peptide.pdb",
+  "receptor": "5LSO/receptor.pdb",
+  "receptor_msa": "5LSO/receptor.a3m",
+  "receptor_chains": "A",
+  "hotspots": "A80,A28,A79,A78,A81,A32",
+  "topology": "HT"
+}
